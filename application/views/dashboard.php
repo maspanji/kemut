@@ -4,7 +4,7 @@
 
 	<div id="body">		
             <ul>
-			
+                <li><a href="<?php echo site_url();?>/akun">Kelola Akun</a></li>	
             </ul>
 	</div>
 </div>
