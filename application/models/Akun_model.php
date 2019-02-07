@@ -2,10 +2,6 @@
 
 class Akun_model extends CI_Model {
 
-        public $idAkun;
-        public $namaAkun;
-        public $tipe;
-
         public function get_all_akun()
         {
             $query = $this->db->get('akun');
