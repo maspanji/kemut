@@ -7,7 +7,7 @@ foreach ($rekap as $row) {
     $jumlah = $row->jumlah;
     $tipe = $row->tipe;
     if($row->tipe=="debet"){
-        $total_debet += $jumlah; 
+        $total_debet += $jumlah;
     }else{
         $total_kredit += $jumlah;
     }
