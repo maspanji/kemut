@@ -2,8 +2,7 @@
 
 class User_model extends CI_Model {
 
-    public function insert_user_baru() 
-    {
+    public function insert_user_baru() {
         $username = $this->input->post("username");
         $password = $this->input->post("password");
         $fullname = $this->input->post("fullname");
@@ -11,8 +10,7 @@ class User_model extends CI_Model {
         $this->db->query($q, array($username, $password, $fullname));
     }
 
-    public function get_all_user() 
-    {
+    public function get_all_user() {
         $query = $this->db->get('user');
         return $query->result();
     }

@@ -8,5 +8,8 @@
         <ul>
             <li><a href="<?php echo site_url(); ?>/user">Kelola User</a></li>	
         </ul>
+        <ul>
+            <li><a href="<?php echo site_url(); ?>/transaksi">Insert Transaksi</a></li>	
+        </ul>        
     </div>
 </div>
