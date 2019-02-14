@@ -15,5 +15,11 @@ class Laporan extends CI_Controller {
         $this->load->view("laporan");
         $this->load->view("proto/foot");
     }
+    
+    function tampil_laporan_bulanan(){
+        $this->load->model("laporan_model");
+        $data['rekap']=$this->laporan_model->rekap_transaksi_bulanan();
+        $this->load->view("tampil_laporan_bulanan",$data);
+    }
 
 }
