@@ -2,8 +2,9 @@
 What is Kemut?
 ###################
 
-Kemut adalah aplikasi keuangan sederhana untuk mengelola keuangan Masjid, 
-khusunya di Masjid Al Muttaqin Perumahan Grand Tembalang Regency, Semarang.  
+Kemut adalah aplikasi keuangan sederhana untuk mengelola keuangan Masjid. Kemut mampu 
+merekap transaksi keuangan dan mengelompokkannya ke dalam akun-akun tertentu. Kemut mampu
+menampilkan laporan berdasarkan bulan tertentu.   
 
 *******************
 Release Information

@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <head>
         <meta charset="utf-8">
         <title>Dashboard</title>
-
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-3.3.1.min.js" ></script>
         <style type="text/css">
 
 
@@ -47,6 +47,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             }
 
             tr:nth-child(even) {background-color: #f2f2f2;}
-        </style>
+        </style>    
     </head>
     <body>
