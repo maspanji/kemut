@@ -7,7 +7,7 @@
         Keterangan : <input type="text" name="keterangan" />
     </p>
     <p>
-        Jumlah : <input type="number" name="jumlah" />
+        Jumlah : <input type="number" min="0" step="0.01" name="jumlah" />
     </p>
     <p>
         Akun : 

@@ -20,7 +20,7 @@
         </tr>
     </thead> 
     <?php 
-    $num = 0;
+    $num = 1;
     foreach ($all_akun as $akun) {
     ?>
         <tr>

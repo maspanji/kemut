@@ -1,19 +1,14 @@
 <?php
+echo "<h2>Pemasukan</h2>";
+echo "<table>";
+echo $tabel_debet;
+echo "</table>";
+echo "Total Pemasukan: ".$total_debet."<br>";
 
-$total_debet = 0;
-$total_kredit = 0;
-print_r($rekap);
-foreach ($rekap as $row) {
-    $jumlah = $row->jumlah;
-    $tipe = $row->tipe;
-    if($row->tipe=="debet"){
-        $total_debet += $jumlah;
-    }else{
-        $total_kredit += $jumlah;
-    }
-    echo $row->nama_akun . " " . $jumlah . "<br>";
-} 
-echo $total_debet."<br>";
-echo $total_kredit."<br>";
+echo "<h2>Pengeluaran</h2>";
+echo "<table>";
+echo $tabel_kredit;
+echo "</table>";
+echo "Total Pengeluaran: ".$total_kredit."<br>";
 
 ?>
