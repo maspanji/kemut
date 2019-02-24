@@ -47,9 +47,5 @@ class Laporan extends CI_Controller {
         $this->load->view("proto/foot");
     }
     
-    function test(){
-        $this->load->helper('numtorupiah');
-        echo numtorp(30000);
-    }
 
 }
